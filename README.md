@@ -32,3 +32,13 @@ doi:10.1111/jfr3.70147
   Event-based rainfall and water-level data used for the confluence case study (Events #8 and #9).
 
 ---
+
+### Reproducibility notes
+
+Results may vary slightly depending on random seeds, hardware (CPU/GPU), and library versions.
+
+Please follow the same event split and lead-time settings described in the notebooks to reproduce the paper experiments.
+
+To reduce run-to-run variation, fix random seeds and, if needed, enable deterministic operations in the deep-learning framework. However, exact bitwise reproducibility is not always guaranteed across different hardware/software environments.
+
+---
