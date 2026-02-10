@@ -15,16 +15,16 @@ doi:10.1111/jfr3.70147
 ## Contents
 
 ### Notebooks
-- `notebooks/direct_prediction.ipynb`  
+- `Direct prediction_clear.ipynb`  
   Direct prediction (DP): multi-step prediction for a fixed lead time using observed rainfall inputs.
 
-- `notebooks/direct_prediction_forecast_rain.ipynb`  
+- `Direct prediction with forecast rain_clear.ipynb`  
   DP using forecasted rainfall as inputs.
 
-- `notebooks/recursive_prediction.ipynb`  
+- `Recursive prediction_clear.ipynb`  
   Recursive prediction (RP): multi-horizon (e.g., up to 24 h) prediction by feeding model outputs back as inputs, using observed/past rainfall.
 
-- `notebooks/recursive_prediction_forecast_rain.ipynb`  
+- `Recursive prediction with forecast rain_clear.ipynb`  
   RP using forecasted rainfall as inputs.
 
 ### Data
